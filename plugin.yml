@@ -1,0 +1,25 @@
+name: SkyGiants1058
+main: com.andrei1058.skygiants.Main
+version: 0.2.8
+author: andrei1058
+website: http://andrei1058.com
+description: SkyGiants Minigame
+depend: [ProtocolLib]
+
+commands:
+  sgs:
+    description: Main setup command.
+  leave:
+    description: Leave the arena
+  givegold:
+    description: Send gold to a player
+    aliases: [oferaaur, ofrooro]
+  recall:
+    description: Return to your base
+    aliases: [baza, base]
+  vote:
+    description: Vote for a map
+    aliases: [voteaza, vota, v]
+  team:
+    description: Join a team
+    aliases: [echipa, squadra]
